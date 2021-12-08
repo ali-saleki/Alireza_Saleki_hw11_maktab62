@@ -1,0 +1,17 @@
+[
+  {
+    "username": "mike",
+    "name": "Michael Smith",
+    "email": "mike-smith@yahoo.com"
+  },
+  {
+    "username": "matt",
+    "name": "Mathew Curry",
+    "email": "mattcurr@gmail.com"
+  },
+  {
+    "username": "chris",
+    "name": "Chris Davis",
+    "email": "chris.dave@hotmail.com"
+  }
+]

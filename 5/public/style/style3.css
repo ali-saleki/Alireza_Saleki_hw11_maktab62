@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  width: 100%;
+  padding: 0.5%;
+  background-color: #dcdcdc;
+  margin: auto;
+}
+
+.header {
+  width: 98%;
+  height: 55px;
+  background-color: black;
+  margin: 1%;
+  /* top: 10px; */
+  position: relative;
+}
+
+.header p {
+  position: relative;
+  color: white;
+  top: 0.5cm;
+  margin-left: 1.5%;
+}
+
+.navbar-action {
+  display: none;
+  text-align: center;
+  padding: 2% 0;
+}
+
+.btn-head {
+  cursor: pointer;
+}
+
+.btn-head:hover {
+  color: yellow;
+}
+
+main {
+  width: 100%;
+  margin: 1%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.card {
+  background-color: #33b5e6;
+
+  width: 100%;
+  padding: 6%;
+  margin-bottom: 7%;
+}
+
+.card p {
+  position: relative;
+  color: #8e008d;
+  font-size: 13px;
+  text-align: center;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.contain {
+  display: flex;
+  width: 100%;
+  padding: 1%;
+  flex-flow: column wrap;
+  margin: auto;
+  margin-top: 0;
+}
+
+.contain p {
+  font-size: 13px;
+}
+
+.contain h1 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.right-bar {
+  display: flex;
+  flex-direction: column;
+  padding-right: 2%;
+  padding-top: 1%;
+}
+
+.box {
+  background-color: #8e008d;
+  text-align: center;
+  width: 100%;
+  padding: 10%;
+  margin-bottom: 7%;
+}
+
+.box p {
+  font-size: 13px;
+}
+
+.footer {
+  background-color: #e0b885;
+  width: 98%;
+  padding: 0.5%;
+  margin: 1%;
+  text-align: center;
+}
+
+.footer p {
+  margin: 15px;
+  font-size: 15px;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .col-sm-1 {
+    width: 8.33%;
+  }
+  .col-sm-2 {
+    width: 16.66%;
+  }
+  .col-sm-3 {
+    width: 25%;
+  }
+  .col-sm-4 {
+    width: 33.33%;
+  }
+  .col-sm-5 {
+    width: 41.66%;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+  .col-sm-7 {
+    width: 58.33%;
+  }
+  .col-sm-8 {
+    width: 66.66%;
+  }
+  .col-sm-9 {
+    width: 75%;
+  }
+  .col-sm-10 {
+    width: 83.33%;
+  }
+  .col-sm-11 {
+    width: 91.66%;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+
+  .contain p {
+    font-size: 21px;
+    margin-right: 1%;
+  }
+
+  .contain h1 {
+    font-size: 34px;
+  }
+
+  .left-bar {
+    margin-top: 4%;
+  }
+
+  .box {
+    padding: 6%;
+    margin-bottom: 4%;
+  }
+
+  .card {
+    padding: 2%;
+    margin-bottom: 2%;
+  }
+
+  .btn-head {
+    display: block;
+    text-align: center;
+    display: none;
+  }
+
+  .navbar-action {
+    color: red;
+    display: block;
+  }
+  
+  .navbar-action:hover + .btn-head {
+    display: block;
+  }
+}
